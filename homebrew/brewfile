@@ -1,0 +1,105 @@
+
+# homebrew taps
+taps=(
+    caskroom/cask
+    homebrew/dupes 
+    homebrew/php
+    homebrew/versions
+    josegonzalez/php
+)
+
+# homebrew recipes
+recipes=(
+    autoconf
+    autojump
+    bison27
+    brew-cask
+    coreutils
+    flex
+    freetype
+    gdbm
+    gettext
+    git
+    git-extras
+    go-pear.phar
+    graphviz
+    grc
+    groovy
+    heroku-toolbelt
+    hub
+    jpeg
+    legit
+    libevent
+    libmemcached
+    libpng
+    libyaml
+    maven
+    mcrypt
+    memcached
+    mhash
+    mongodb
+    nginx
+    node
+    openssl
+    pcre
+    php55
+    php55-mcrypt
+    php55-memcached
+    php55-xdebug
+    phpunit
+    pkg-config
+    python
+    python3
+    re2c
+    readline
+    ruby
+    spark
+    sqlite
+    tree
+    unixodbc
+    wget
+    xz
+    zlib
+    zsh
+)
+
+# homebrew casks -> OSX Applications
+casks=(
+    android-file-transfer
+    android-studio
+    appcleaner
+    chromecast
+    dropbox
+    evernote
+    filezilla
+    firefox
+    flux
+    google-chrome
+    google-drive
+    google-hangouts
+    iterm2
+    mou
+    phpstorm
+    remote-desktop-connection
+    robomongo
+    slack
+    sourcetree
+    spotify
+    sublime-text
+    the-unarchiver
+    vagrant
+    virtualbox
+    vlc
+    betterzipql
+    qlcolorcode
+    qlmarkdown
+    qlprettypatch
+    qlstephen
+    quicklook-csv
+    quicklook-json
+    quicknfo
+    suspicious-package
+    webp-quicklook
+    colorpicker-developer
+    colorpicker-skalacolor
+)

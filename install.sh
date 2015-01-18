@@ -35,6 +35,8 @@ brew install zsh
 # set zsh as the system shell
 chsh -s /usr/local/bin/zsh
 
+# install all homebrew apps
+./homebrew/brew_init.sh
 
 # leave happy
 exit 0
