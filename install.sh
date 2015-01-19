@@ -38,5 +38,8 @@ chsh -s /usr/local/bin/zsh
 # install all homebrew apps
 ./homebrew/brew_init.sh
 
+# sublime settings
+cp -r config/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null;ok
+
 # leave happy
 exit 0
