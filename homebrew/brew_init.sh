@@ -14,10 +14,10 @@ brew upgrade
 # get lists of all the taps, recipes and casks
 source brewfile
 
-# Tap Homebrew kegs
-if (( ${#kegs[@]} > 0 )); then
-    for keg in "${kegs[@]}"; do
-        brew tap $keg
+# Setup Homebrew taps
+if (( ${#taps[@]} > 0 )); then
+    for tap in "${taps[@]}"; do
+        brew tap $tap
     done
 fi
 
