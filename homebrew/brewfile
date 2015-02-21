@@ -38,6 +38,7 @@ recipes=(
     memcached
     mhash
     mongodb
+    multimarkdown
     nginx
     node
     openssl

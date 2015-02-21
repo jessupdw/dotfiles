@@ -37,6 +37,7 @@ brew install mcrypt
 brew install memcached
 brew install mhash
 brew install mongodb
+brew install multimarkdown
 brew install nginx
 brew install node
 brew install openssl
