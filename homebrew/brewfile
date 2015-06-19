@@ -69,6 +69,7 @@ casks=(
     android-file-transfer
     android-studio
     appcleaner
+    atom
     chromecast
     dropbox
     evernote
