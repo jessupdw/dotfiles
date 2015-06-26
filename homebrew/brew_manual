@@ -68,6 +68,7 @@ brew install zsh
 brew cask install android-file-transfer
 brew cask install android-studio
 brew cask install appcleaner
+brew cask install atom
 brew cask install chromecast
 brew cask install dropbox
 brew cask install evernote
@@ -90,7 +91,7 @@ brew cask install the-unarchiver
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
-  
+
 # Quick Look plugins
 brew cask install betterzipql
 brew cask install qlcolorcode

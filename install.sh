@@ -41,5 +41,21 @@ sh homebrew/brew_init.sh
 # sublime settings
 cp -r config/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null;ok
 
+# install apm plugins
+apm install autocomplete-php
+apm install editorconfig
+apm install git-blame-plus
+apm install git-tab-status
+apm install linter
+apm install linter-csslint
+apm install linter-jshint
+apm install linter-php
+apm install linter-pylint
+apm install linter-scss-lint
+apm install merge-conflicts
+apm install pigments
+apm install seti-syntax
+apm install seti-ui
+
 # leave happy
 exit 0
