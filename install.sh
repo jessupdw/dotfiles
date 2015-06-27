@@ -53,6 +53,10 @@ apm install linter-php
 apm install linter-pylint
 apm install linter-scss-lint
 apm install merge-conflicts
+apm install minimap
+apm install minimap-find-and-replace
+apm install minimap-git-diff
+apm install minimap-highlight-selected
 apm install pigments
 apm install seti-syntax
 apm install seti-ui
