@@ -35,6 +35,12 @@ brew install zsh
 # set zsh as the system shell
 chsh -s /usr/local/bin/zsh
 
+# install on-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# copy zshrc settings
+cp -r config/_.zshrc ~/.zshrc 2> /dev/null;ok
+
 # install all homebrew apps
 sh homebrew/brew_init.sh
 
@@ -60,6 +66,11 @@ apm install minimap-highlight-selected
 apm install pigments
 apm install seti-syntax
 apm install seti-ui
+
+# npm globals
+npm install -g bower
+npm install -g gulp
+npm install -g yo
 
 # leave happy
 exit 0

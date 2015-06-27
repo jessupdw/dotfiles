@@ -63,11 +63,19 @@ alias o="subl"
 
 # open common file
 alias hosts="o /etc/hosts"
+alias bash_profile="o ~/.bash_profile"
 
 # Copy current directory into clipboard
 alias cpwd='printf "$PWD" | pbcopy'
 
 alias pear="/Users/djessup/pear/bin/pear";
+
+# common commands
+alias cd-dev="cd /Users/djessup/Documents/Projects/Dev"
+
+# Git commands
+alias git-pullall="/Users/djessup/Documents/Projects/Dev/scripts/update_all_projects.sh"
+alias git-mergefb="/Users/djessup/Documents/Projects/Dev/scripts/merge_feature_as_one_commit.sh"
 
 # Obtain IP for a hostname
 function ipfor(){
@@ -85,3 +93,6 @@ alias jenkins-stop="sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="/usr/local/bin:$PATH"
+
+### .net extensions
+source dnvm.sh
