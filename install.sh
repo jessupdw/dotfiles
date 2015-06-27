@@ -41,6 +41,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # copy zshrc settings
 cp -r config/_.zshrc ~/.zshrc 2> /dev/null;ok
 
+# install powerline fonts
+pip install --user powerline-status
+
 # install all homebrew apps
 sh homebrew/brew_init.sh
 
@@ -48,9 +51,11 @@ sh homebrew/brew_init.sh
 cp -r config/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null;ok
 
 # install apm plugins
+apm install atom-ctags
 apm install autocomplete-php
 apm install editorconfig
 apm install git-blame-plus
+apm install git-control
 apm install git-tab-status
 apm install linter
 apm install linter-csslint
@@ -66,6 +71,7 @@ apm install minimap-highlight-selected
 apm install pigments
 apm install seti-syntax
 apm install seti-ui
+apm install symbols-tree-view
 
 # npm globals
 npm install -g bower
