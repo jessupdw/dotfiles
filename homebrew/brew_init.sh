@@ -31,7 +31,7 @@ fi
 # Install Homebrew casks
 if (( ${#casks[@]} > 0 )); then
     for cask in "${casks[@]}"; do
-        brew cask install $cask
+        brew cask install --appdir="/Applications" $cask
     done
 fi
 
