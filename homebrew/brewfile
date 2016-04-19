@@ -80,7 +80,7 @@ casks=(
     google-drive
     google-hangouts
     iterm2
-    mou
+    macdown
     phpstorm
     remote-desktop-connection
     robomongo

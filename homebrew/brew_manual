@@ -79,7 +79,7 @@ brew cask install google-chrome
 brew cask install google-drive
 brew cask install google-hangouts
 brew cask install iterm2
-brew cask install mou
+brew cask install macdown
 brew cask install phpstorm
 brew cask install remote-desktop-connection
 brew cask install robomongo
