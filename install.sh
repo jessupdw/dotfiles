@@ -42,5 +42,8 @@ npm install -g bower
 npm install -g gulp
 npm install -g yo
 
+# show hidden files
+defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder
+
 # leave happy
 exit 0
